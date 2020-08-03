@@ -4,7 +4,7 @@
 
 ## User guide
 
-* [ETNA Trader Web](user-guide/web-terminal/README.md)
+* [TTG-SIM Trader Web](user-guide/web-terminal/README.md)
   * [Getting Started](user-guide/web-terminal/getting-started.md)
   * [Platform Layout](user-guide/web-terminal/platform-layout.md)
   * [User Widgets](user-guide/web-terminal/user-widgets/README.md)
