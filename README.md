@@ -21,5 +21,3 @@ Features include:
 * Trade from any where functionality
 * Paper trading/simulated trading mode  
 
-<!-- {% embed url="https://www.youtube.com/watch?v=yS12523JVN8" caption="" %} -->
-
