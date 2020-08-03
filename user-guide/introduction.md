@@ -4,7 +4,7 @@
 
 This sections covers basics of working with ETNA Trader Web Trading Platform:
 
-1. How to register?
+1. How to register? 
 2. How to change a password?
 3. Where are the widgets menu and how to use them? 
 4. How to place an order? 
