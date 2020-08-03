@@ -46,7 +46,7 @@ Users can set the type of order they want to place from Trade Ticket, Option Tic
 
 ## Placing Algo Orders
 
-TTG-SIM Trader provides traders with a set of algorithmic order types like the trailing stop, trailing stop-limit, one-cancels-the-other, one-triggers-the-other, etc. Orders of these types can be configured and placed from TTG-SIM Trader Web, mobile apps, and the [web API]().
+TTG-SIM Trader provides traders with a set of algorithmic order types like the trailing stop, trailing stop-limit, one-cancels-the-other, one-triggers-the-other, etc. Orders of these types can be configured and placed from TTG-SIM Trader Web, mobile apps, and the [web API](orders.md).
 
 Let's review each of these order types and demonstrate how they can be placed.
 

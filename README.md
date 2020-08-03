@@ -4,7 +4,7 @@ description: >-
   describing its components, features and more.
 ---
 
-# What is TTG SIM?
+# What is TTG-SIM?
 
 TTG-SIM enables all True Trading Group members to gain instant live stock market data. Our members also gain live access to level-2 market data. Our simulator will enable all members to practice with fake money until they feel comfortable to trade alongside Mike and the other moderators with real money.
 
