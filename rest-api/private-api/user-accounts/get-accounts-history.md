@@ -1,2 +1,0 @@
-# Get Account's History
-
