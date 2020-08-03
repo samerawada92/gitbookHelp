@@ -19,7 +19,7 @@ Features include:
 * Monitor orders, positions and account balances in real time
 * Customizable Price Alerts Engine
 * Trade from any where functionality
-* Paper trading/simulated trading mode 
+* Paper trading/simulated trading mode  
 
 <!-- {% embed url="https://www.youtube.com/watch?v=yS12523JVN8" caption="" %} -->
 
