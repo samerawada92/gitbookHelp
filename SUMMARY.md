@@ -5,7 +5,6 @@
 ## User guide
 
 * [TTG-SIM Trader Web](user-guide/web-terminal/README.md)
-  * [Getting Started](user-guide/web-terminal/getting-started.md)
   * [Platform Layout](user-guide/web-terminal/platform-layout.md)
   * [User Widgets](user-guide/web-terminal/user-widgets/README.md)
     * [Account Information](user-guide/web-terminal/user-widgets/account-information.md)
