@@ -2,7 +2,7 @@
 
 ## Exploring the Watchlists Widget
 
-ETNA Trader's watchlist is designed to be sortable and filterable to help traders make decisions quicker \(this is especially important when trading options as it helps determine the entry strategy\). You can create your own watch list based on which groupings of stocks you would like to see in one view \(available in demo mode\). The screenshots below show the steps of creating your own watch list \(ex: _FANG_ watchlist\).
+TTG-SIM Trader's watchlist is designed to be sortable and filterable to help traders make decisions quicker \(this is especially important when trading options as it helps determine the entry strategy\). You can create your own watch list based on which groupings of stocks you would like to see in one view \(available in demo mode\). The screenshots below show the steps of creating your own watch list \(ex: _FANG_ watchlist\).
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-19.39.54.png)
 

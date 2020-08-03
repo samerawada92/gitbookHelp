@@ -6,7 +6,7 @@ description: Explore the market depth of a specific security
 
 ## Exploring the Market Depth Widget
 
-ETNA Trader's **Market Depth** widget enables traders to inspect the current market depth of a specific security. Specifically, it displays the following information:
+TTG-SIM Trader's **Market Depth** widget enables traders to inspect the current market depth of a specific security. Specifically, it displays the following information:
 
 * Equity order book;
 * Quote for selected symbol;

@@ -6,7 +6,7 @@ description: Configure hotkeys to streamline your trading routing
 
 ## Introduction
 
-ETNA Trader provides rich shortcut functionality to users who'd like to streamline their trading routine with hotkeys. If you need to buy a security or cancel all active orders with a single press of a key — TTG-SIM Trader enables you to configure shortcuts for such events. The range of actions that can be mapped to keyboard keys is determined by the broker along with the default mappings. However, traders can always map their own keys to the default range of events by means of the **Hotkeys** widget.
+TTG-SIM Trader provides rich shortcut functionality to users who'd like to streamline their trading routine with hotkeys. If you need to buy a security or cancel all active orders with a single press of a key — TTG-SIM Trader enables you to configure shortcuts for such events. The range of actions that can be mapped to keyboard keys is determined by the broker along with the default mappings. However, traders can always map their own keys to the default range of events by means of the **Hotkeys** widget.
 
 ## Configuration of Hotkeys
 
