@@ -6,11 +6,7 @@ description: >-
 
 # What is TTG SIM?
 
-ETNA Trader Suite of Applications is a white label web trading platform for online broker-dealers. TTG-SIM Trader is an all-in-one front to back office solution for online brokers
-
-ETNA Trader consists of several components: web trader, mobile trading applications for iOS and Android, OMS with middle and back office and trading APIs.
-
-ETNA Trader can be used as a whole turn key trading suite for running an online broker-dealer business, or certain components can be private labeled separately such as: web trader, mobile applications, trading API or broker back office with OMS.
+TTG-SIM enables all True Trading Group members to gain instant live stock market data. Our members also gain live access to level-2 market data. Our simulator will enable all members to practice with fake money until they feel comfortable to trade alongside Mike and the other moderators with real money.
 
 Features include:
 
@@ -25,11 +21,5 @@ Features include:
 * Trade from any where functionality
 * Paper trading/simulated trading mode 
 
-Find more information about features of TTG-SIM Trader here: [https://www.etnasoft.com/broker-dealers/](https://www.etnasoft.com/broker-dealers/)
-
-Open a demo account: [http://demo.etnatrader.com/User/UserInformationEntry](http://demo.etnatrader.com/User/UserInformationEntry)
-
-Watch a video overview of a web trading platform:
-
-{% embed url="https://www.youtube.com/watch?v=yS12523JVN8" caption="" %}
+<!-- {% embed url="https://www.youtube.com/watch?v=yS12523JVN8" caption="" %} -->
 
