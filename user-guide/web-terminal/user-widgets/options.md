@@ -180,8 +180,6 @@ Once the order is filled, it can be inspected from the **Orders** widget and the
 
 ### Options Trading in ETNA Trader for iOS:
 
-{% page-ref page="../../etna-trader-for-ios/quotes-view/trade-view/options-trading.md" %}
-
 ## Video Overview
 
 Feel free to watch our video overview that demonstrates how to trade options in ETNA Trader Web as well as in our mobile apps:
