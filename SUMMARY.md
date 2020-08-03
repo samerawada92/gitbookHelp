@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is ETNA Trader?](README.md)
+* [What is TTG-SIM?](README.md)
 
 ## User guide
 
