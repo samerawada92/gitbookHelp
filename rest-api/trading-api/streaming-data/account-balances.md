@@ -4,7 +4,7 @@ description: Subscribe to changes in traders' account balances
 
 # Account Balances
 
-### Subscription Parameters <a id="Positions-Subscribe"></a>
+## Subscription Parameters <a id="Positions-Subscribe"></a>
 
 | Parameter | Value |
 | :---: | :---: |
@@ -16,7 +16,7 @@ description: Subscribe to changes in traders' account balances
 
 **Example:** `{"Cmd":"Subscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"140","EntityType":"AccountBalance","HttpClientType":"WebSocket"}`
 
-### Unsubscription Parameters <a id="Positions-Unsubscribe"></a>
+## Unsubscription Parameters <a id="Positions-Unsubscribe"></a>
 
 | Parameter | Value |
 | :---: | :---: |
@@ -28,7 +28,7 @@ description: Subscribe to changes in traders' account balances
 
 **Example:** { "Cmd":"Unsubscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"140","EntityType":"Position","HttpClientType":"WebSocket"}
 
-### Message <a id="Positions-Message"></a>
+## Message <a id="Positions-Message"></a>
 
 In response to this request, you will receive all account-related information in the JSON format.
 

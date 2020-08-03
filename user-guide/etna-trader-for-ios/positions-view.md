@@ -4,11 +4,11 @@ description: Track open positions
 
 # Positions View
 
-### Introduction
+## Introduction
 
 The second tab in ETNA Trader for iOS — **Positions** — is responsible for listing all outstanding positions on the current trading account. When a trader opens a new position from the [Trade View](quotes-view/trade-view/), this newly created position becomes instantly visible on the Positions view. In addition to viewing outstanding positions, this tab also enables you track the profit and loss figures for each position, their market value, and a set of other parameters.
 
-### Exploring the Position Tab
+## Exploring the Position Tab
 
 To open the Positions tab, tap Positions in the tab bar at the bottom of the app. You will be presented with a list of all positions opened on the trading account \(the number of the account is displayed as a subtitle at the top\).
 
@@ -55,7 +55,7 @@ Immediately all your positions will be switched to the tile view which displays 
 
 This view enables you to quickly detect positions with the biggest profit and loss and analyze how different positions affect the entire portfolio. The positions with insignificant profit and loss figures are designated as _Other_.
 
-If you wish to view the positions of a different trading account, navigate to _Account_ \(5th tab\) and tap on the account number. 
+If you wish to view the positions of a different trading account, navigate to _Account_ \(5th tab\) and tap on the account number.
 
 ![](../../.gitbook/assets/img_d274947473bf-1_iphonexspacegrey_portrait.png)
 

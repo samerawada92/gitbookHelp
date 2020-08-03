@@ -4,7 +4,7 @@ description: Fetch information about a specific ACH relationship
 
 # Get an ACH Relationship
 
-### Overview
+## Overview
 
 This GET endpoint enables you to retrieve information about a specific ACH relationship.
 
@@ -22,7 +22,7 @@ Here's the final template for this API request:
 GET apiURL/v1.0/accounts/{accountId}/ach-relationships/{id}
 ```
 
-### Response
+## Response
 
 In response to this API request, you will receive a JSON dictionary containing detailed information about the enquired ACH relationship.
 
@@ -56,11 +56,11 @@ where:
 | ApprovalMethod | This is the approval method. The value of this parameter can be either **Instant** \(Plaid\) or **Manual** \(Micro deposits\). |
 | Default | This boolean value indicates if this ACH relationship is a default one for this trading account. |
 
-### Common Mistakes
+## Common Mistakes
 
-Here are some of the common mistakes that developers make when attempting to retrieve information about an ACH relationship. 
+Here are some of the common mistakes that developers make when attempting to retrieve information about an ACH relationship.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

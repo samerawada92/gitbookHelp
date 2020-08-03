@@ -4,9 +4,9 @@ description: Fetch all impending corporate actions for a specific security
 
 # Get Corporate Actions for a Security
 
-### Introduction
+## Introduction
 
-This GET endpoint enables you to fetch the list of all impending corporate actions of a specific security by providing its ticker symbol. 
+This GET endpoint enables you to fetch the list of all impending corporate actions of a specific security by providing its ticker symbol.
 
 There are four required parameters that must be provided in the request:
 
@@ -21,15 +21,15 @@ Here's the final template for this API request:
 GET apiURL/v1.0/news/corporate-actions?symbol=T
 ```
 
-### Response
+## Response
 
 In response to this API request, you'll receive a JSON file containing the list of the recent and impending corporate actions of the specified security.
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve the corporate actions of a specific security.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -39,7 +39,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Failing to Specify the Query Parameters
+### Failing to Specify the Query Parameters
 
 It's crucial to understand that the _**security**_ parameter must be provided in the request; otherwise you'll receive the 404 status code.
 

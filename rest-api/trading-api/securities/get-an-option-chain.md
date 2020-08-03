@@ -2,7 +2,7 @@
 
 ## Overview
 
-This GET endpoint enables you to retrieve an option chain for a specific security.  An option chain is a series of options with a fixed number of options with the strike price above and below a center strike price. For instance, if you want an option chain with `Range` set to `1`, you will receive two pairs \(Call + Put\) of options: one above the center strike price and another below the center strike price. 
+This GET endpoint enables you to retrieve an option chain for a specific security. An option chain is a series of options with a fixed number of options with the strike price above and below a center strike price. For instance, if you want an option chain with `Range` set to `1`, you will receive two pairs \(Call + Put\) of options: one above the center strike price and another below the center strike price.
 
 There are four required parameters that must be provided in the request's header and query:
 
@@ -36,7 +36,6 @@ There's also one optional parameter worth examining:
         <ul>
           <li>Expiration = #2020-01-17T00:00:00Z#</li>
         </ul>
-        <p></p>
       </td>
     </tr>
     <tr>

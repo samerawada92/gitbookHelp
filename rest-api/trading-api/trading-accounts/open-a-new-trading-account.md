@@ -1,6 +1,6 @@
 # Open a New Trading Account
 
-### Introduction
+## Introduction
 
 This POST endpoint enables to send a request for opening a new trading account. The process of creating new trading accounts differs based on the clearing firm responsible for handing these requests; in this article we will demonstrate how to open a new paper trading account in ETNA Trader's demo environment.
 
@@ -12,7 +12,7 @@ There are five required parameters that must be provided in the request:
 4. **userId** \(query\). This is the ID of the user account to which the new trading account will be bound.
 5. **model** \(body\). This is a JSON file that contains detailed information about the new account opening request.
 
-### Request Body
+## Request Body
 
 The body of this request represents the information about the to-be-created account opening request. It must be sent in the JSON format with the parameters described in the following table:
 
@@ -38,7 +38,7 @@ POST apiURL/v1.0/user/{userId}/account-requests/open
 To create a new account opening request on behalf of the user whose authorization token you provide in the request header, replace _userId_ with **@me**
 {% endhint %}
 
-### Response
+## Response
 
 In response to this API request, you will receive a JSON file containing information about the status of the request.
 
@@ -60,11 +60,11 @@ You may list the user's trading accounts via the following API endpoint:
 
 {% page-ref page="../user-accounts/list-users-accounts/" %}
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to send a new account opening request.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -74,7 +74,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Failing to Specify All Body Parameters
+### Failing to Specify All Body Parameters
 
 Another common mistake when making this request is failing to specify all of the required body parameters. Doing so will result in the 500 status code and the following error message:
 

@@ -4,7 +4,7 @@ description: Delete an existing ACH relationship
 
 # Delete an ACH Relationship
 
-### Overview
+## Overview
 
 This DELETE endpoint enables you to delete an existing ACH relationship from a particular trading account.
 
@@ -23,7 +23,7 @@ Here's the final template for this API request:
 DELETE apiURL/v1.0/accounts/{accountId}/ach-relationships/{id}?reason=Closed%20the%20banking%20account
 ```
 
-### Response
+## Response
 
 In response to this API request, you will receive a JSON dictionary containing information about the deleted ACH relationship, including the **Canceled** status and the cancelation reason.
 
@@ -45,11 +45,11 @@ In response to this API request, you will receive a JSON dictionary containing i
 }
 ```
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to send a request to delete an existing ACH relationship.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

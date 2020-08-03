@@ -4,17 +4,17 @@ description: Learn more about trading accounts
 
 # Account Information
 
-### Account information
+## Account information
 
 ETNA Trader's account information is designed to display the user's real-time information on all trading activities, account value, buying power as well as a set of other parameters. It also displays various information about the total profit or loss on the account. To view this information, add the **Account Info** widget to your dashboard.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-19-at-16.48.06.png)
 
-### Account Value Chart
+## Account Value Chart
 
 The chart on the right displays the trading account's value for a certain period. Specify the starting date, the end date, and the account value for the period will be graphed. To export the chart data in the Excel \(.xlsx\) format, click **Export**.
 
-### Cash
+## Cash
 
 Cash indicates the amount of funds that the account's user has deposited themselves or borrowed from the broker. You can think of it as the net balance of the account: if equity exceeds liabilities — Cash is positive; if equity is lower than liabilities — Cash is negative.
 
@@ -26,7 +26,7 @@ Now let's investigate how opening new positions affects Cash. Suppose your Cash 
 Cash is a base parameter that is retrieved daily from the clearing firm. Throughout the trading session it is dynamically re-calculated whenever a new transaction is made.
 {% endhint %}
 
-### Account Value
+## Account Value
 
 Account value represents the sum of the available Cash and the aggregate market value of all long and short positions.
 
@@ -34,11 +34,11 @@ $$
 AccountValue = Cash + Market Value
 $$
 
-### Pending Order Count
+## Pending Order Count
 
 Pending Order Count indicates the number of current outstanding orders \(the ones that are yet to be executed\).
 
-### Stock Buying Power
+## Stock Buying Power
 
 This is the gross number of stocks that can be purchased on this trading account, adjusted for the available margin debt.
 
@@ -46,7 +46,7 @@ $$
 StockBuyingPower = Excess / MarginRate
 $$
 
-### Option Buying Power
+## Option Buying Power
 
 This is the gross number of options that can be purchased on this trading account.
 
@@ -54,7 +54,7 @@ $$
 OptionBuyingPower = Excess
 $$
 
-### Day Trading Buying Power
+## Day Trading Buying Power
 
 Day trading buying power is a critical indicator that represents the amount of funds that the user can spend to open new positions. At the beginning of every trading session, this value is retrieved from the clearing firm. Throughout the trading session, Day Trading Buying Power fluctuates based on the performed trades — it decreases with each new long position and it increases with each position closing.
 
@@ -77,23 +77,23 @@ where:
 Please note that the cost of the margin debt provided by the broker is not taken into account when calculating Day Trading Buying Power.
 {% endhint %}
 
-### Option Maintenance Margin
+## Option Maintenance Margin
 
 This is the minimum amount of equity that must be maintained on the trading account in order to cover the existing option positions.
 
-### Maintenance Margin
+## Maintenance Margin
 
 Maintenance margin represents the minimum amount of equity that should be maintained in a margin account to comply with FINRA's regulations.
 
-### Unrealized P/L
+## Unrealized P/L
 
 Unrealized PL is **Open Profit/Loss** and it represents the amount of unrealized profit or loss for all positions.
 
-### Realized P/L Today
+## Realized P/L Today
 
 Realized P/L Today is **Realized Profit/Loss Today** and it represents the amount of realized profit or loss during the current trading session.
 
-### Market Value \(or Net Liquidation Value\)
+## Market Value \(or Net Liquidation Value\)
 
 Market Value is the market value of all positions in all asset classes and is equal to the sum of four other parameters:
 
@@ -109,6 +109,4 @@ $$
 $$
 + optionLongMarketValue + optionShortMarketValue
 $$
-
-
 

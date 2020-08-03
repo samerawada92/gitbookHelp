@@ -4,13 +4,13 @@ description: Learn how to place a trade in ETNA Trader for Android
 
 # Trade View
 
-### Introduction
+## Introduction
 
 ETNA Trader for Android offers full-fledged functionality for trading, enabling traders to open positions in both stocks and options. Whether a trader wants to open a long, short, or buy-to-cover position, they can do so by tapping on the **Trade** button in the top-right corner.
 
 ![](../../../.gitbook/assets/screenshot_2020-04-28-21-48-23-139_com.etnasoft.etnamobile.android%20%281%29.jpg)
 
-### Placing an Order
+## Placing an Order
 
 This will bring up the the trade view where you can meticulously configure the order:
 
@@ -26,7 +26,7 @@ Next, specify the target trading session for the order. If the target trading se
 
 Finally, you can optionally select the target execution venue where the order should be executed. You can also ensure that this order executes in its entirety rather than as a sequence of partial fills by tapping **All or None**. You may also provide an accompanying comment for this order — this might be useful for reminding yourself the reason for entering this trade.
 
-### Verifying the Order's Details
+## Verifying the Order's Details
 
 Once the order is completely configured, tap **Verify Order**. This will bring up the order verification view where you can ensure that the order is properly configured before proceeding to place it on the execution venue. This view might also display any possible conflicts like insufficient buying power, exceeding the limit for day trades, etc.
 
@@ -35,8 +35,4 @@ Once the order is completely configured, tap **Verify Order**. This will bring u
 If the order is properly configured, tap **Place** and the order will immediately be placed.
 
 ![](../../../.gitbook/assets/screenshot_2020-04-28-21-56-39-013_com.etnasoft.etnamobile.android.jpg)
-
-
-
-
 

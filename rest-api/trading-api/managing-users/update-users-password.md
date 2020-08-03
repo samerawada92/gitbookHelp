@@ -4,7 +4,7 @@ description: Update the password of a user
 
 # Update User's Password
 
-### Overview
+## Overview
 
 This PUT endpoint enables you to update the password of an existing user by providing the old and the new password. This operation is different from the [password reset process](../password-reset/) where the old password is unknown but can be reset via email.
 
@@ -16,7 +16,7 @@ There are four required parameters that must be provided in the request:
 4. **userID** \(path\). This is the internal ID of the user  whose password you'd like to updated. If the request is sent on behalf of the user whose authorization token is used to perform the request, set this parameter to `@me`.
 5. **userPassword** \(body\). This is a JSON object containing the the old and the new password of the user.
 
-#### Body Syntax
+### Body Syntax
 
 The body of the request represents a JSON object containing the old, the new, and the confirmation of the new password.
 
@@ -38,15 +38,15 @@ The following is the final template for this request:
 PUT apiURL/v1.0/users/{userID}/password/change
 ```
 
-### Response
+## Response
 
 In response to this request, if the user's password was successfully updated, you will receive the 200 status code and no error message.
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to update a user's password:
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -56,7 +56,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Failure to Provide the Old Password
+### Failure to Provide the Old Password
 
 If you fail to provide the old password in the body of the request, you will receive the following error:
 

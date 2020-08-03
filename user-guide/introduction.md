@@ -1,6 +1,6 @@
 # Introduction
 
-### Overview
+## Overview
 
 This sections covers basics of working with ETNA Trader Web Trading Platform:
 
@@ -9,9 +9,9 @@ This sections covers basics of working with ETNA Trader Web Trading Platform:
 3. Where are the widgets menu and how to use them? 
 4. How to place an order? 
 5. How to set up a price alert?
-6. How do I get help? 
+6. How do I get help?
 
-This User Guide sets forth the procedures and descriptions of how to use ETNA Trader, starting from the sign up process all the way to complex trading activities. 
+This User Guide sets forth the procedures and descriptions of how to use ETNA Trader, starting from the sign up process all the way to complex trading activities.
 
 This document:
 
@@ -35,8 +35,4 @@ Separate sections are designated for all components of the platform:
 {% hint style="info" %}
 Information provided in this user guide regarding the software or functionality of the Trading Platform, including descriptions and illustrations \(i.e. screenshots\), are subject to change by ETNA.
 {% endhint %}
-
-### 
-
-
 

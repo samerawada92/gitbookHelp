@@ -4,7 +4,7 @@ description: Retrieve trading data for charts in the Microsoft Excel format
 
 # Get Chart Data in the Excel Format
 
-### Overview
+## Overview
 
 This POST endpoint enables you to retrieve chart data for a particular security in the Microsoft Excel \(.xlsx\) format.
 
@@ -60,13 +60,13 @@ Here's the final template for this API request:
 POST apiURL/v1.0/history/export
 ```
 
-### Response
+## Response
 
 In response to this API request, you should expect a .xlsx file that contains chart data for the enquired security. Following is a sample of such file:
 
 {% file src="../../../../.gitbook/assets/aapl\_4-hours\_from\_03.05.2018\_to\_03.05.2019.xlsx" caption="Chart Data for AAPL" %}
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve chart data for a security in the Excel format.
 

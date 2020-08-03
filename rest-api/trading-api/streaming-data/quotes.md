@@ -4,7 +4,7 @@ description: Subscribe to quotes
 
 # Quotes
 
-### Subscription Parameters <a id="Quote-Subscribe"></a>
+## Subscription Parameters <a id="Quote-Subscribe"></a>
 
 | Parameter | Value |
 | :---: | :---: |
@@ -16,7 +16,7 @@ description: Subscribe to quotes
 
 **Example:** {"Cmd":"Subscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"5","EntityType":"Quote","HttpClientType":"WebSocket"}
 
-### Unsubscription Parameters <a id="Quote-Unsubscribe"></a>
+## Unsubscription Parameters <a id="Quote-Unsubscribe"></a>
 
 | Parameter | Value |
 | :---: | :---: |
@@ -28,7 +28,7 @@ description: Subscribe to quotes
 
 **Example:** {"Cmd":"Unsubscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"5","EntityType":"Quote","HttpClientType":"WebSocket"}
 
-### Response <a id="Quote-Message"></a>
+## Response <a id="Quote-Message"></a>
 
 In response to this request, you will receive various quote-related parameters for the target security in the JSON format.
 

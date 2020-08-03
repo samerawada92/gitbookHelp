@@ -4,9 +4,9 @@ description: Fetch all recent news for a specific security
 
 # Get News for a Security
 
-### Introduction
+## Introduction
 
-This GET endpoint enables you to fetch the list of all recent news for a specific security by providing its ticker symbol. 
+This GET endpoint enables you to fetch the list of all recent news for a specific security by providing its ticker symbol.
 
 There are four required parameters that must be provided in the request:
 
@@ -21,7 +21,7 @@ Here's the final template for this API request:
 GET apiURL/v1.0/news?symbol=AAPL
 ```
 
-### Response
+## Response
 
 In response to this API request, you'll receive a JSON file containing the list of the recent news for the specified security.
 
@@ -69,11 +69,11 @@ where:
 | Content | This is a preview of the news article. |
 | NewsId | This is the ID of the news article. |
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve the news for a specific security.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -83,7 +83,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Failing to Specify the Query Parameters
+### Failing to Specify the Query Parameters
 
 It's crucial to understand that the _**security**_ parameter must be provided in the request; otherwise you'll receive the 404 status code.
 

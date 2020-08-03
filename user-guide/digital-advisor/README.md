@@ -6,14 +6,14 @@ description: >-
 
 # ETNA Digital Advisor
 
-### Introduction
+## Introduction
 
 In addition to the full-fledged trading terminal available for professional traders, ETNA Trader also comes with a lightweight digital advisor that enables automatic rebalancing of portfolios in accordance with a pre-defined model that determines:
 
 * Which asset classes should comprise the portfolio
 * The weight of every asset class in the portfolio.
 
-Each model has its own theme and the target audience: for example, there can be aggressive models for aggressive investors, conservative models for low-risk investors. With respect to industries, there might be models weighted towards renewable energy companies, high-tech companies, or space exploration companies. And in similar fashion many different models can be created and tailored to investors' preferences and risk tolerance. 
+Each model has its own theme and the target audience: for example, there can be aggressive models for aggressive investors, conservative models for low-risk investors. With respect to industries, there might be models weighted towards renewable energy companies, high-tech companies, or space exploration companies. And in similar fashion many different models can be created and tailored to investors' preferences and risk tolerance.
 
 Each model is defined by the broker before their instance of Digital Advisor is deployed in production. Here is how it works: the broker opens a special administrator widget where they can create a new model, give it a name, and then specify securities that this model should have along with their corresponding weight in the portfolio \(which should collectively add up to 100%\). Once a new model is created and fully defined, it'll immediately become available in the list of all models from which investors can choose upon registration.
 

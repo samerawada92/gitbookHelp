@@ -4,7 +4,7 @@ description: Approve an ACH relationship based on micro deposits
 
 # Approve an ACH Relationship
 
-### Overview
+## Overview
 
 This POST endpoint enables you to approve a new ACH relationship that are based on micro deposits \(as opposed to Plaid-based ACH relationships\). When you attempt to create such relationship, you will see two values in your banking account statement \(e.g., `0.34` and `0.21`\). These two values will have to provided in this endpoint to confirm the creation of the ACH relationship.
 
@@ -21,7 +21,7 @@ There are six required parameters that must be provided in the request:
 5. **id** \(path\). This is the ID of the to-be-approved ACH relationship in ETNA Trader.
 6. **model** \(body\). This is a JSON dictionary containing two values from the banking statement.
 
-#### Request Body
+### Request Body
 
 The body of this request represents the two values from the banking statement. They can be provided in any order.
 
@@ -45,15 +45,15 @@ Here's the final template for this API request:
 POST apiURL/v1.0/accounts/{accountId}/ach-relationships/{id}/approve
 ```
 
-### Response
+## Response
 
 In response to this API request, you will receive the 200 status code and no error message.
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to send a request to approve an ACH relationship.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

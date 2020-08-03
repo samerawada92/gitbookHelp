@@ -1,6 +1,6 @@
 # Watchlist & Quote View
 
-### Quotes Tab
+## Quotes Tab
 
 The first tab of ETNA Trader for Android represents the **Quotes** view which displays the current quotes for securities of a specific watchlist. The quotes are displayed in blocks — two per row — along with mini charts and the ticker symbol of the security.
 
@@ -24,11 +24,11 @@ For example, you can type in **SNAP**, tap on the first result of the query, and
 
 ![](../../../.gitbook/assets/screenshot_2020-04-28-21-48-23-139_com.etnasoft.etnamobile.android.jpg)
 
-### Quote View
+## Quote View
 
 The Quote view contains pertinent information about the security and its price. In addition to the current bid and ask prices, the Quote view also contains four other segments: **Chart**, **News**, **Options**, and **Market Depth**.
 
-### Chart View
+## Chart View
 
 The chart view is by far the most frequently used feature of the mobile app. Its purpose is to display different kinds of charts of the historical price data for the selected security. You can interact with the chart to get more detailed information about trade volumes, the highs and lows registered at a specific date, etc.
 

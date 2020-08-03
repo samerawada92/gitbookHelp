@@ -6,9 +6,9 @@ description: >-
 
 # Deposit / Withdraw Funds via ACH
 
-### Overview
+## Overview
 
-This POST endpoint enables you to deposit or withdraw funds to/from an ACH-based banking account. 
+This POST endpoint enables you to deposit or withdraw funds to/from an ACH-based banking account.
 
 There are five required parameters that must be provided in the request:
 
@@ -18,7 +18,7 @@ There are five required parameters that must be provided in the request:
 4. **accountId** \(path\). This is the [internal identifier](../user-accounts/list-users-accounts/) of the trading account in ETNA Trader.
 5. **model** \(body\). This is a JSON file containing detailed information about the funds transfer.
 
-#### Body Syntax
+### Body Syntax
 
 The body of the request represents a JSON file containing all required parameters for performing a funds transfer.
 
@@ -48,7 +48,7 @@ Here's the final template for this API request:
 POST apiURL/v1.0/accounts/{accountId}/transfers/ach
 ```
 
-### Response
+## Response
 
 In response to this API request, you will receive a JSON dictionary containing detailed information about the transfer.
 
@@ -66,11 +66,11 @@ In response to this API request, you will receive a JSON dictionary containing d
 }
 ```
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to send a request to deposit or withdraw funds.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

@@ -47,7 +47,7 @@ where:
 | :--- | :--- |
 | Id | This is the internal ID of the trading account in ETNA Trader. |
 | ClearingAccount | This is the internal number of the trading account |
-| AccessType | This is the access type of the account. Possible values: 0 \(Full\), 1 \(Read Only\), \(Close Positions Only\).  |
+| AccessType | This is the access type of the account. Possible values: 0 \(Full\), 1 \(Read Only\), \(Close Positions Only\). |
 | MarginType | This is the account type. Possible values: Full, Margin, DayTrader. |
 
 ## Common Mistakes

@@ -1,6 +1,6 @@
 # Watchlists
 
-### Subscribe to Сhanges in the List of Traders' Watchlists <a id="Watchlist-Subscribe(&#x421;hangesinthelistofwatchlist)"></a>
+## Subscribe to Сhanges in the List of Traders' Watchlists <a id="Watchlist-Subscribe(&#x421;hangesinthelistofwatchlist)"></a>
 
 | Parameter | Value |
 | :--- | :--- |
@@ -12,7 +12,7 @@
 
 **Example:** {"Cmd":"Subscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"1159","EntityType":"Watchlist","HttpClientType":"WebSocket"}‌
 
-### Unsubscribe from Сhanges in the List of Traders' Watchlists <a id="Watchlist-Unsubscribe"></a>
+## Unsubscribe from Сhanges in the List of Traders' Watchlists <a id="Watchlist-Unsubscribe"></a>
 
 | Parameter | Value |
 | :--- | :--- |
@@ -24,7 +24,7 @@
 
 **Example:** {"Cmd":"Unsubscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"1159","EntityType":"Watchlist","HttpClientType":"WebSocket"}‌
 
-### Message <a id="Watchlist-Message"></a>
+## Message <a id="Watchlist-Message"></a>
 
 In response to this request, you will receive the updated list of watchlists in the JSON format.‌
 
@@ -45,7 +45,7 @@ In response to this request, you will receive the updated list of watchlists in 
 
 **}**‌
 
-### Subscribe to the Content of a Specific Watchlist <a id="Watchlist-Subscribe(Contentofspecifiedwatchlist)"></a>
+## Subscribe to the Content of a Specific Watchlist <a id="Watchlist-Subscribe(Contentofspecifiedwatchlist)"></a>
 
 | Parameter | Value |
 | :--- | :--- |
@@ -57,7 +57,7 @@ In response to this request, you will receive the updated list of watchlists in 
 
 **Example:** {"Cmd":"Subscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"287","EntityType":"WatchlistContent","HttpClientType":"WebSocket"}‌
 
-### Unsubscribe from the Content of a Specific Watchlist <a id="Watchlist-Subscribe(Contentofspecifiedwatchlist)-1"></a>
+## Unsubscribe from the Content of a Specific Watchlist <a id="Watchlist-Subscribe(Contentofspecifiedwatchlist)-1"></a>
 
 | Parameter | Value |
 | :--- | :--- |
@@ -69,7 +69,7 @@ In response to this request, you will receive the updated list of watchlists in 
 
 **Example:** {"Cmd":"Unsubscribe.txt", "SessionId":"7e83072e-09e7-43ed-91d5-f2b747bf162e", "Keys":"287","EntityType":"WatchlistContent","HttpClientType":"WebSocket"}‌
 
-### Message <a id="Watchlist-Message.1"></a>
+## Message <a id="Watchlist-Message.1"></a>
 
 In response to this request, you will receive changes in the specified watchlist.‌
 

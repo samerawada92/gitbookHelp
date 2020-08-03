@@ -6,7 +6,7 @@ description: >-
 
 # What is ETNA Trader?
 
-ETNA Trader Suite of Applications is a white label web trading platform for online broker-dealers.  ETNA Trader is an all-in-one front to back office solution for online brokers
+ETNA Trader Suite of Applications is a white label web trading platform for online broker-dealers. ETNA Trader is an all-in-one front to back office solution for online brokers
 
 ETNA Trader consists of several components: web trader, mobile trading applications for iOS and Android, OMS with middle and back office and trading APIs.
 
@@ -27,9 +27,9 @@ Features include:
 
 Find more information about features of ETNA Trader here: [https://www.etnasoft.com/broker-dealers/](https://www.etnasoft.com/broker-dealers/)
 
-Open  a demo account:  [http://demo.etnatrader.com/User/UserInformationEntry](http://demo.etnatrader.com/User/UserInformationEntry)
+Open a demo account: [http://demo.etnatrader.com/User/UserInformationEntry](http://demo.etnatrader.com/User/UserInformationEntry)
 
 Watch a video overview of a web trading platform:
 
-{% embed url="https://www.youtube.com/watch?v=yS12523JVN8" %}
+{% embed url="https://www.youtube.com/watch?v=yS12523JVN8" caption="" %}
 

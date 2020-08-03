@@ -4,7 +4,7 @@ description: Register a new user in ETNA Trader
 
 # Register a User
 
-### Introduction
+## Introduction
 
 This POST endpoint enables you to register a new user. Before doing so, first learn which parameters are required during registration via the following endpoint:
 
@@ -18,7 +18,7 @@ There are five required parameters that must be provided in the request:
 4. **API version** \(path\). Unless necessary, leave it at "v1.0".
 5. **registrationRequest** \(body\). This is JSON dictionary containing information about the new user.
 
-#### Body Syntax
+### Body Syntax
 
 The body of the request represents a JSON dictionary with required parameters.
 
@@ -44,7 +44,7 @@ The request ought to be sent to the following URL:
 POST apiURL/v1.0/registration/
 ```
 
-### Response
+## Response
 
 In response to this request, if the user was successfully added, you will receive a JSON dictionary containing information about the new user:
 
@@ -62,11 +62,11 @@ In response to this request, if the user was successfully added, you will receiv
 }
 ```
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when registering new users.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -76,7 +76,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Failure to Specify All Of the Required Parameters
+### Failure to Specify All Of the Required Parameters
 
 If you fail to specify all of the parameters required for registration of users in your company, you will receive the 409 status code as well as an error message explaining the reason for registration failure. For example, if we omit the email, we will get the following error:
 

@@ -4,11 +4,11 @@ description: Learn how to place a trade for options in ETNA Trader for iOS
 
 # Options Trading
 
-### Introduction
+## Introduction
 
 ETNA Trader provides comprehensive options trading functionality in both [ETNA Trader Web](../../../web-terminal/user-widgets/options.md) and ETNA Trader for iOS. This article delves deeper into the iOS app and demonstrates how you can use it to trade options, enter into complex strategies, track and analyze your profit and loss statements, and so forth.
 
-### Trading Options in ETNA Trader for iOS
+## Trading Options in ETNA Trader for iOS
 
 To trade options in ETNA Trader for iOS, launch the app and navigate to the **Quotes** tab. This tab displays all watchlists of your trading account along with their corresponding securities. Next, select the required watchlist, locate the security on which you're attempting to trade options, and then tap on it.
 
@@ -18,7 +18,7 @@ This will bring up the Quote view that displays all information pertinent to thi
 
 ![](../../../../.gitbook/assets/img_99cc7fbbce77-1_iphonexspacegrey_portrait.png)
 
-#### Filtering Options
+### Filtering Options
 
 At the top of the **Options** sub-tab there are two filters that enables you to sort through the options by expiration date and closeness of the strike price to the current market price of the underlying security.
 
@@ -40,7 +40,7 @@ Once the order is placed and sent to the execution venue, its state can be exami
 
 ![](../../../../.gitbook/assets/img_0178_iphonexspacegrey_portrait.png)
 
-Once the order is filled, the newly opened position can be tracked on the **Positions** tab along with other positions in options and other security types. 
+Once the order is filled, the newly opened position can be tracked on the **Positions** tab along with other positions in options and other security types.
 
 ![](../../../../.gitbook/assets/img_0179_iphonexspacegrey_portrait.png)
 

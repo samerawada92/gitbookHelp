@@ -4,11 +4,11 @@ description: Learn how to open new trading accounts in ETNA Trader
 
 # Account Opening
 
-### Introduction
+## Introduction
 
 ETNA Trader offers native trading account onboarding for all traders. After a trader performs initial sign-up, they're immediately prompted to open a new trading account. During the process, the trader fills out all of the necessary information about their identity, employment, liquid net worth, affiliation with corporate entities, and so forth. Afterward, the filled out form is sent to the clearing firm that might either approve or reject the account opening request. If the request is approved, the trader might proceed to deposit funds into their trading account and then start placing trades.
 
-### Opening a New Trading Account
+## Opening a New Trading Account
 
 Once a trader has signed up for ETNA Trader, they will be immediately re-directed to ETNA Trader Web without having an active trading account \(which will be indicated in the header\). To create a new account, they should click **Add Account**. If they already have an account, they should expand the list of accounts and click **Edit**.
 
@@ -28,13 +28,13 @@ Once the form is filled out, it will take some time for it to be processed and t
 
 Once the trading account has been opened, the trader can sign into ETNA Trader Wen and use the newly created account to start trading.
 
-### Account Opening Request Workflow
+## Account Opening Request Workflow
 
 The following diagram demonstrates the workflow of opening a new account:
 
 ![](../../../../.gitbook/assets/screenshot-2019-10-17-at-17.27.01.png)
 
-### Trading Account Management
+## Trading Account Management
 
 If a trader needs to open another account or manage their current accounts, they can click on the little gear icon the header of ETNA Trader Web. This will bring up the user management window where the trader can add a new account by clicking **Add Account**. In order to modify an existing account, the trader should click on the **Replace** icon.
 

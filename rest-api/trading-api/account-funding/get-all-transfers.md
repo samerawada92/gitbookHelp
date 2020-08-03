@@ -4,9 +4,9 @@ description: Retrieve all deposits and withdrawals of a particular trading accou
 
 # Get All Transfers
 
-### Overview
+## Overview
 
-This GET endpoint enables you to retrieve all deposits and withdrawals of a particular trading account. 
+This GET endpoint enables you to retrieve all deposits and withdrawals of a particular trading account.
 
 There are eight required parameters that must be provided in the request:
 
@@ -25,7 +25,7 @@ Here's the final template for this API request:
 GET apiURL/v1.0/accounts/{accountId}/transfers
 ```
 
-### Response
+## Response
 
 In response to this API request, you will receive an array of JSON dictionaries containing detailed information about all transfers on this trading account.
 
@@ -64,11 +64,11 @@ In response to this API request, you will receive an array of JSON dictionaries 
 }
 ```
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to send a request to list all transfers.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

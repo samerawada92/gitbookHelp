@@ -4,7 +4,7 @@ description: Download the app from the App Store and sign up
 
 # Getting Started
 
-### Introduction
+## Introduction
 
 ETNA Trader for iOS serves as an extension of ETNA Trader Web and provides similar functionality, including:
 
@@ -17,17 +17,17 @@ ETNA Trader for iOS serves as an extension of ETNA Trader Web and provides simil
 
 To take a quick look at ETNA Trader for iOS in action, feel free to watch our vide overview of the app:
 
-{% embed url="https://www.youtube.com/watch?v=mypMwSeuYl4&t=2s" %}
+{% embed url="https://www.youtube.com/watch?v=mypMwSeuYl4&t=2s" caption="" %}
 
-### Downloading ETNA Trader for iOS
+## Downloading ETNA Trader for iOS
 
 ETNA Trader for iOS is available on the [App Store](https://itunes.apple.com/us/app/etna-trader/id658778917?mt=8) for both iPhone and iPad. It also features an extension for the Apple Watch that enables users to track their positions, profit and loss figures, account information, etc.
 
 ![](../../.gitbook/assets/img_4eaf831e2b67-1-2_iphonexspacegrey_portrait.png)
 
-### Signing Up
+## Signing Up
 
-After you've downloaded the app, launch the app and tap on **Sign up**. if you've already signed up in ETNA Trader Web, you can use those credentials to log into the mobile app. 
+After you've downloaded the app, launch the app and tap on **Sign up**. if you've already signed up in ETNA Trader Web, you can use those credentials to log into the mobile app.
 
 ![](../../.gitbook/assets/img_0007_iphonexspacegrey_portrait.png)
 
@@ -46,6 +46,4 @@ On the sign-up window, proceed to specify your information:
 Once you're done filling in the form, tap **Done**, accept the privacy policy, and tap **OK**.
 
 Now that your new account has been created, proceed to log in.
-
-
 

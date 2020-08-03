@@ -4,7 +4,7 @@ description: Learn about the design of ETNA Trader for iOS
 
 # App Layout
 
-### Introduction
+## Introduction
 
 Once you launch ETNA Trader for iOS, you'll notice that the app's layout is based on a five-tab bar, each tab containing a separate screen with its own purpose. The list of tabs in the bar is as follows:
 

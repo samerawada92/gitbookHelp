@@ -4,7 +4,7 @@ description: Fetch trading data for comparing multiple securities
 
 # Get Comparison Chart Data
 
-### Overview
+## Overview
 
 This PUT endpoint enables you to retrieve and compare historical trading data for a set of securities. The data includes price ranges, candles, and various other non-market data. It can be used to draw comparative trading charts as demonstrated by the following screenshot:
 
@@ -17,7 +17,7 @@ There are four required parameters that must be provided in the request:
 3. **API version** \(path\). Unless necessary, leave it at "1.0".
 4. **model** \(body\). This is a JSON dictionary that contains information about the enquired securities.
 
-#### Enquired Securities Syntax
+### Enquired Securities Syntax
 
 Here's an example of the request body with the information about the enquired securities.
 
@@ -169,7 +169,7 @@ Here's the final template for this API request:
 PUT apiURL/v1.0/history/compare
 ```
 
-### Sample CURLs
+## Sample CURLs
 
 ```text
 curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'Authorization: Bearer token' --header 'Et-App-Key: yourEttAppKey' -d '{"Securities": [{"Symbol":"MSFT","Exchange":"XNAS","Currency":"USD","Id":6},
@@ -180,7 +180,7 @@ curl -X PUT --header 'Content-Type: application/json' --header 'Accept: applicat
  } }' 'https://pub-api-et-demo-prod.etnasoft.us/api/v1.0/history/compare'
 ```
 
-### Response
+## Response
 
 In response to this API request, you'll receive the chart data for the list of specified securities. Notice that trading data for the Microsoft stock comes first, and after it comes the second array with the trading data for the Apple stock.
 
@@ -226,11 +226,11 @@ where:
 | Difference | This is the difference between the price at the `StartDate` and `Price`. |
 | Price | The price registered at `Time`. |
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to retrieve trading data for a set of securities.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -240,7 +240,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Incorrectly Specifying the Request Body
+### Incorrectly Specifying the Request Body
 
 Another common mistake when attempting to retrieve the chart data for a set of securities is incorrectly structuring the request body. It's critical that you follow the template provided above and specify all of the required parameters. Otherwise you'll receive the 500 status code and the following error message:
 

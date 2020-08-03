@@ -4,7 +4,7 @@ description: Get a set of parameters that must be specified when creating users
 
 # Get Required Fields
 
-### Introduction
+## Introduction
 
 This GET endpoint enables you to retrieve the list of required fields for registration of users. This might be useful for determining the required text fields and drop-down menus when designing a custom UI for user registration.
 
@@ -20,9 +20,9 @@ The request ought to be sent to the following URL:
 GET apiURL/v1.0/registration/schema
 ```
 
-### Response
+## Response
 
-In response to this API request, you will receive a collection of required parameters split into different categories. Each parameter will have a corresponding `Required` parameter, indicating if it must be provided during registration. 
+In response to this API request, you will receive a collection of required parameters split into different categories. Each parameter will have a corresponding `Required` parameter, indicating if it must be provided during registration.
 
 ```javascript
 [
@@ -75,11 +75,11 @@ In response to this API request, you will receive a collection of required param
 ]
 ```
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when requesting required registration parameters.
 
-### Failing to Specify the Et-App-Key Parameter
+## Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

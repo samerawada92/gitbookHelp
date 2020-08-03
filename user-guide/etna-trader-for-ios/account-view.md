@@ -4,13 +4,13 @@ description: 'Change global settings, inspect the account balances'
 
 # Account View
 
-### Introduction
+## Introduction
 
 The last tab of ETNA Trader for iOS — **Account** — is responsible for displaying comprehensive information about the current trading account as well as enabling you to change the app's settings. Here you can quickly glance at the current market value of the account, track the profit and loss figures, take a closer look at your current buying power, configure notifications, etc.
 
 ![](../../.gitbook/assets/img_0067_iphonexspacegrey_portrait%20%281%29.png)
 
-### Exploring the Account Tab
+## Exploring the Account Tab
 
 Once you open the Account tab, the first thing you encounter is the account value chart that displays the current market value of the trading account. Rotating the device will expand the chart to full screen, giving you a more spacious view of the historical value of the trading account.
 
@@ -50,9 +50,9 @@ In the last two sections of the _Account_ tab you can explore the following four
 3. **Pending Order Count**. This is the number of orders that have been placed but are yet to be executed.
 4. **Day Trades**. This is the number of day trades that have been executed on this trading account during the last five trading sessions \(including the current one\). According to FINRA, a day trade is the purchase and sale \(or sale and purchase\) of the same security during the same trading session in a margin account.
 
-### Configuring Settings
+## Configuring Settings
 
-The app's settings can be configured on a dedicated screen by tapping on the little gear icon in the top-right corner. 
+The app's settings can be configured on a dedicated screen by tapping on the little gear icon in the top-right corner.
 
 ![](../../.gitbook/assets/img_0067_iphonexspacegrey_portrait.png)
 
@@ -81,5 +81,5 @@ Scrolling downward, you can configure notifications settings. Use these toggles 
 
 ![](../../.gitbook/assets/img_0064_iphonexspacegrey_portrait.png)
 
-The last three options enable you configure the login mode, toggle various themes, and select the quote flashing mode. 
+The last three options enable you configure the login mode, toggle various themes, and select the quote flashing mode.
 

@@ -4,7 +4,7 @@ description: Track your positions and analyze their profit/loss
 
 # Positions
 
-### Exploring the Positions Widget
+## Exploring the Positions Widget
 
 Once an order is placed in the market, the user will be able to see it on the **Positions** widget. Here traders can examine the current profit or loss on all their positions and also trade securities from their positions by clicking on the ticker symbol.
 
@@ -16,13 +16,13 @@ Specifically, the profit or loss on each position can be examined from the `P/L 
 The profit or loss on a closed position is displayed only throughout the trading session in which it was closed. During subsequent trading sessions, the profit or loss on closed positions will no longer be displayed.
 {% endhint %}
 
-### Closing Positions
+## Closing Positions
 
 To close an existing position, hover the mouse over the cross button and then click on it.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.16.15.png)
 
-### Column Management
+## Column Management
 
 The default selection of columns displayed in the **Positions** widget is determined by ETNA Trader. However, you can always add or conceal certain columns by clicking **Change Columns**.
 

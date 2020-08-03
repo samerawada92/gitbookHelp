@@ -4,7 +4,7 @@ description: Perform regular authentication in ETNA Trader
 
 # Single-Factor Authentication
 
-### Overview
+## Overview
 
 All API requests in ETNA Trader require a unique authentication token that must be provided in the request header. Without this token, it's impossible to place orders, retrieve charts, create users, etc. To get the token, use the following API endpoint:
 
@@ -14,7 +14,7 @@ POST APIBaseURL + /token
 
 {% hint style="info" %}
 API base URL is unique for every environment; if you're testing the API on our demo environment, the final endpoint URL will be as follows:  
-[`https://pub-api-et-demo-prod.etnasoft.us/api/token`](https://pub-api-et-demo-prod.etnasoft.us/api/token) 
+[`https://pub-api-et-demo-prod.etnasoft.us/api/token`](https://pub-api-et-demo-prod.etnasoft.us/api/token)
 {% endhint %}
 
 The header of the request must contain the following three parameters:
@@ -23,19 +23,19 @@ The header of the request must contain the following three parameters:
 2. **Username**. This is the username of the user on whose behalf all future requests will be made.
 3. **Password**. This is the password of the user on whose behalf all future requests will be made.
 
-### CURL
+## CURL
 
 The following is a sample CURL for performing single-factor authentication:
 
 ```text
 curl -X POST "https://pub-api-et-demo-prod.etnasoft.us/api/token" \
-	-H "Username: yourUsername" \
-	-H "Password: yourPassword" \
-	-H "Et-App-Key: yourEttAppKey" \
-	-H "Content-Length: 0" 
+    -H "Username: yourUsername" \
+    -H "Password: yourPassword" \
+    -H "Et-App-Key: yourEttAppKey" \
+    -H "Content-Length: 0"
 ```
 
-### Response
+## Response
 
 In response to this API request, you'll receive a JSON file that contains the token. Here's an example of such response:
 
@@ -57,11 +57,11 @@ where:
 The authorization token lifetime is 24 hours.
 {% endhint %}
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when requesting a token:
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -71,7 +71,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Incorrect or Missing User Credentials
+### Incorrect or Missing User Credentials
 
 If you specify the wrong user credentials or fail to include them in the request header, you'll get the following error:
 
@@ -83,7 +83,7 @@ If you specify the wrong user credentials or fail to include them in the request
 }
 ```
 
-### Sample Code
+## Sample Code
 
 To see how initial authentication can be performed in code, feel free to examine our [sample requests](../../code-samples/) in a dedicated article.
 

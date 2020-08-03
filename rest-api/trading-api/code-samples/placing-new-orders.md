@@ -1,6 +1,6 @@
 # Placing New Orders
 
-### Placing New Orders  & Checking Their Status
+## Placing New Orders  & Checking Their Status
 
 {% page-ref page="../orders/place-order/" %}
 
@@ -12,55 +12,55 @@ import requests
 
 class EtnaAPIRequest:
 
-	baseURL = "https://pub-api-et-demo-prod.etnasoft.us/api/"
-	EtAppKey = "Et App Key from the BO Companies widget"
+    baseURL = "https://pub-api-et-demo-prod.etnasoft.us/api/"
+    EtAppKey = "Et App Key from the BO Companies widget"
 
-	token = 'uninitialized'
+    token = 'uninitialized'
 
-	username = "Your username"
-	password = "Your password"
+    username = "Your username"
+    password = "Your password"
 
-	def simpleAuth(self):
-		authenticationRequest = requests.post(self.baseURL + 'token', 
-											  headers = {"Accept" : "application/json", "Et-App-Key" : self.EtAppKey, "Username":self.username, "Password":self.password})
+    def simpleAuth(self):
+        authenticationRequest = requests.post(self.baseURL + 'token', 
+                                              headers = {"Accept" : "application/json", "Et-App-Key" : self.EtAppKey, "Username":self.username, "Password":self.password})
 
-		print('Authorization status code: ' + str(authenticationRequest.status_code) + '\n')
+        print('Authorization status code: ' + str(authenticationRequest.status_code) + '\n')
 
-		try:
-			responseJSON = authenticationRequest.json()
-			print(responseJSON)
-			self.token = "Bearer " + responseJSON["Token"]
-			return responseJSON
-		except:
-			return "No response"
-		
-	def placeOrder(self, order, tradingAccount):
+        try:
+            responseJSON = authenticationRequest.json()
+            print(responseJSON)
+            self.token = "Bearer " + responseJSON["Token"]
+            return responseJSON
+        except:
+            return "No response"
 
-		orderPlacementRequest = requests.post(self.baseURL + 'v1.0/accounts/' + str(tradingAccount) + '/orders',
-											  headers = {"Accept" : "application/json", "Et-App-Key" : self.EtAppKey, "Authorization":self.token},
-											  json = order)
+    def placeOrder(self, order, tradingAccount):
 
-		print('Authorization status code: ' + str(orderPlacementRequest.status_code) + '\n')
+        orderPlacementRequest = requests.post(self.baseURL + 'v1.0/accounts/' + str(tradingAccount) + '/orders',
+                                              headers = {"Accept" : "application/json", "Et-App-Key" : self.EtAppKey, "Authorization":self.token},
+                                              json = order)
 
-		try:
-			responseJSON = orderPlacementRequest.json()
-			# print (responseJSON)
-			return responseJSON['Id']
-		except:
-			return "No response"
+        print('Authorization status code: ' + str(orderPlacementRequest.status_code) + '\n')
 
-	def getOrderStatus(self, accountID, orderID):
-		getOrderStatusRequest = requests.get(self.baseURL + 'v1.0/accounts/' + str(accountID) + '/orders/' + str(orderID),
-											 headers = {"Accept" : "application/json", 
-									  			 		"Et-App-Key" : self.EtAppKey, 
-									  			 		"Authorization":self.token})
-		try:
-			responseJSON = getOrderStatusRequest.json()
-			print(responseJSON)
-			return responseJSON['Status']
-		except:
-			return "No response"
-			
+        try:
+            responseJSON = orderPlacementRequest.json()
+            # print (responseJSON)
+            return responseJSON['Id']
+        except:
+            return "No response"
+
+    def getOrderStatus(self, accountID, orderID):
+        getOrderStatusRequest = requests.get(self.baseURL + 'v1.0/accounts/' + str(accountID) + '/orders/' + str(orderID),
+                                             headers = {"Accept" : "application/json", 
+                                                           "Et-App-Key" : self.EtAppKey, 
+                                                           "Authorization":self.token})
+        try:
+            responseJSON = getOrderStatusRequest.json()
+            print(responseJSON)
+            return responseJSON['Status']
+        except:
+            return "No response"
+
 #Performing initial Authentication
 sampleRequest = EtnaAPIRequest()
 sampleRequest.simpleAuth()
@@ -90,7 +90,7 @@ If the authorization token provided in the request header was generated using an
 {% endtab %}
 {% endtabs %}
 
-#### Sample CURL for Order Placement
+### Sample CURL for Order Placement
 
 ```text
 curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'Authorization: theToken' --header 'Et-App-Key: EtAppKey' -d '{ \ 

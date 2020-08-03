@@ -4,7 +4,7 @@ description: Cancel an outstanding ACH Transfer
 
 # Cancel an ACH Transfer
 
-### Overview
+## Overview
 
 This DELETE endpoint enables you to cancel an outstanding ACH deposit or withdrawal.
 
@@ -23,15 +23,15 @@ Here's the final template for this API request:
 DELETE apiURL/v1.0/accounts/{accountId}/transfers/{transferId}?comment=Accidental%20transfer
 ```
 
-### Response
+## Response
 
 In response to this API request, if the transfer was successfully canceled, you will receive the 204 status code and no response body.
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to cancel an outstanding funds transfer.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

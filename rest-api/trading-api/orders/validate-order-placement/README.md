@@ -75,7 +75,7 @@ The body of this request represents the information of the new order that must b
         <ol>
           <li><b>Day</b>. The order automatically expires at the end of the regular
             trading session if it weren&apos;t executed.</li>
-          <li><b>GTC </b>(Good-till-Canceled). The order persists indefinitely until
+          <li><b>GTC</b> (Good-till-Canceled). The order persists indefinitely until
             it is executed or manually cancelled.</li>
           <li><b>AtTheOpening</b>. The order should be filled at the opening of the
             marketplace or cancelled.</li>
@@ -228,7 +228,7 @@ The body of this request represents the information of the new order that must b
 
 ### Multi-Leg Order Verification Sample \(Option + Option\)
 
-All legs of a multi-leg order should contain only three parameters: 
+All legs of a multi-leg order should contain only three parameters:
 
 1. Ticker symbol
 2. Quantity
@@ -244,18 +244,18 @@ The type of a multi-leg order must be either **market** or **limit**.
 {
   "Legs": [
     {
-      
+
       "Quantity": 2,
       "Side": "SellShort",
       "Symbol": "AAPL  200214C00327500",
-      
+
     },
     {
-      
+
       "Quantity": 2,
       "Side": "Buy",
       "Symbol": "AAPL  200214C00380000",
-      
+
     }
   ],
   "ExecInst": "AllOrNone",

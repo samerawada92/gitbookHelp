@@ -1,6 +1,6 @@
 # Basic Authentication
 
-### Single-Factor Authentication 
+## Single-Factor Authentication
 
 {% page-ref page="../authentication/" %}
 
@@ -12,29 +12,29 @@ import requests
 
 class EtnaAPIRequest:
 
-	baseURL = "https://pub-api-et-demo-prod.etnasoft.us/api/"
-	EtAppKey = "your EtAppKey from the BO Companies widget"
+    baseURL = "https://pub-api-et-demo-prod.etnasoft.us/api/"
+    EtAppKey = "your EtAppKey from the BO Companies widget"
 
-	token = 'uninitialized'
+    token = 'uninitialized'
 
-	username = "your username in ETNA Trader"
-	password = "your password in ETNA Trader"
+    username = "your username in ETNA Trader"
+    password = "your password in ETNA Trader"
 
-	def initialAuth(self):
-	    #Creating a POST request
-		authenticationRequest = requests.post(self.baseURL + 'token', 
-											  headers = {"Accept" : "application/json", "Et-App-Key" : self.EtAppKey, "Username":self.username, "Password":self.password})
+    def initialAuth(self):
+        #Creating a POST request
+        authenticationRequest = requests.post(self.baseURL + 'token', 
+                                              headers = {"Accept" : "application/json", "Et-App-Key" : self.EtAppKey, "Username":self.username, "Password":self.password})
 
-		print('Authorization status code: ' + str(authenticationRequest.status_code) + '\n')
+        print('Authorization status code: ' + str(authenticationRequest.status_code) + '\n')
 
-		try:
-			responseJSON = authenticationRequest.json()
-			print(responseJSON)
-			self.token = "Bearer " + responseJSON["Token"]
-			return responseJSON
-		except:
-			return "No response"
-			
+        try:
+            responseJSON = authenticationRequest.json()
+            print(responseJSON)
+            self.token = "Bearer " + responseJSON["Token"]
+            return responseJSON
+        except:
+            return "No response"
+
 #Performing initial Authentication
 sampleRequest = EtnaAPIRequest()
 sampleRequest.initialAuth()
@@ -64,15 +64,15 @@ You can then extract the returned token and assign it to the `token` property.
 {% endtab %}
 {% endtabs %}
 
-### CURL
+## CURL
 
 The following is a sample CURL for performing single-factor authentication:
 
 ```text
 curl -X POST "https://pub-api-et-demo-prod.etnasoft.us/api/token" \
-	-H "Username: yourUsername" \
-	-H "Password: yourPassword" \
-	-H "Et-App-Key: yourEttAppKey" \
-	-H "Content-Length: 0" 
+    -H "Username: yourUsername" \
+    -H "Password: yourPassword" \
+    -H "Et-App-Key: yourEttAppKey" \
+    -H "Content-Length: 0"
 ```
 

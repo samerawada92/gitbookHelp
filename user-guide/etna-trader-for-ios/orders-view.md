@@ -4,9 +4,9 @@ description: 'Track active, filled, and cancelled orders.'
 
 # Orders View
 
-### Introduction
+## Introduction
 
-The third tab of ETNA Trader for iOS — **Orders** — is responsible for displaying the list of current orders of the current trading account: outstanding orders, filled orders, rejected, orders, etc. Here you can quickly inspect which of your orders have already been filled and which ones are under review or were rejected. 
+The third tab of ETNA Trader for iOS — **Orders** — is responsible for displaying the list of current orders of the current trading account: outstanding orders, filled orders, rejected, orders, etc. Here you can quickly inspect which of your orders have already been filled and which ones are under review or were rejected.
 
 {% hint style="info" %}
 The number of the trading account is displayed in the navigation bar under the _Orders_ label.
@@ -18,19 +18,19 @@ The layout of the tab represents a four-segment view that sorts all orders by th
 
 ![](../../.gitbook/assets/img_0045_iphonexspacegrey_portrait.png)
 
-2. **Active**. This segment displays only active orders, i.e. the ones that have been placed but not yet executed.
+1. **Active**. This segment displays only active orders, i.e. the ones that have been placed but not yet executed.
 
 ![](../../.gitbook/assets/img_0046_iphonexspacegrey_portrait.png)
 
-3. **Filled**. This segment displays only filled orders.
+1. **Filled**. This segment displays only filled orders.
 
 ![](../../.gitbook/assets/img_0047_iphonexspacegrey_portrait.png)
 
-4. **Cancelled**. This segment lists cancelled orders, i.e. orders that have been cancelled by the execution venue due to some error.
+1. **Cancelled**. This segment lists cancelled orders, i.e. orders that have been cancelled by the execution venue due to some error.
 
 ![](../../.gitbook/assets/img_0048_iphonexspacegrey_portrait.png)
 
-### Orders Tab Layout
+## Orders Tab Layout
 
 The Orders tab lists all orders of the specified trading account. Looking closer at each order you can view the following information about the order:
 
@@ -56,7 +56,7 @@ To place a new order, you can tap on the **Quick Trade** text field underneath t
 
 ![](../../.gitbook/assets/img_0049_iphonexspacegrey_portrait.png)
 
-### Order Details
+## Order Details
 
 To view detailed information about a specific order, tap on it and you will be redirected to the order details view that displays comprehensive information about the order:
 
@@ -93,11 +93,9 @@ If you tap on the little ellipsis button in the upper right-hand corner, you can
 
 ![](../../.gitbook/assets/img_0053_iphonexspacegrey_portrait.png)
 
+If you wish to view the orders of a different trading account, navigate to _Account_ \(5th tab\) and tap on the account number.
 
-
-If you wish to view the orders of a different trading account, navigate to _Account_ \(5th tab\) and tap on the account number. 
-
-![](../../.gitbook/assets/img_d274947473bf-1_iphonexspacegrey_portrait.png)
+![](../../.gitbook/assets/img_d274947473bf-1_iphonexspacegrey_portrait%20%281%29.png)
 
 Next, tap on the required account number and go back to the Orders tab. The selected trading account's orders should now be listed.
 

@@ -4,9 +4,9 @@ description: Get started with ETNA Trading API
 
 # Overview
 
-### Introduction
+## Introduction
 
-Trading API is designed to perform trading operations like placing orders, getting quotes, configuring price alerts. 
+Trading API is designed to perform trading operations like placing orders, getting quotes, configuring price alerts.
 
 The documentation for trading API is structured by categories, each representing a different set of functionality. The first section — **Authentication** — covers the process of generating authentication tokens that must be provided in the header of all other requests. All subsequent sections cover different aspects of ETNA Trader, ranging from order placement to submitting user feedback.
 

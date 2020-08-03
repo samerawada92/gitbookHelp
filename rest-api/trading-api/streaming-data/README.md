@@ -27,7 +27,7 @@ Example: [**ws://etnatrader.etnasoft.us:9999**](ws://etnatrader.etnasoft.us:9999
 | Param | Description |
 | :--- | :--- |
 | **UserLogin** | The is the user's login. |
-| **UserPassword** | This is the user's password.  |
+| **UserPassword** | This is the user's password. |
 
 #### Option 2: Via Streamer Session ID
 
@@ -94,7 +94,7 @@ Used for start/stop receiving data changes. Once applications subscribe to a str
 
 ### Streamer Types
 
-ETNA Trader provides two types of streamers: 
+ETNA Trader provides two types of streamers:
 
 1. Quote data streamer 
 2. Trade data streamer.

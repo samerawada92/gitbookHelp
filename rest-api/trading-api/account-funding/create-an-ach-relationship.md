@@ -4,7 +4,7 @@ description: Bind an ACH relationship to a trading account
 
 # Create an ACH Relationship
 
-### Overview
+## Overview
 
 After a trader has created a new [trading account](../trading-accounts/open-a-new-trading-account.md), they should proceed to deposit funds into it. ETNA Trader provides native functionality for managing deposits and withdrawals by means of ACH relationships. Essentially, a trader must establish an ACH relationship with their banking account and, once it's done, use it to deposit and withdraw funds to/from their banking account through ETNA Trader's web terminal and iOS apps.
 
@@ -16,7 +16,7 @@ There are five required parameters that must be provided in the request:
 4. **accountId** \(path\). This is the [internal identifier](../user-accounts/list-users-accounts/) of the trading account in ETNA Trader.
 5. **model** \(body\). This is a JSON dictionary that contains detailed information about the new ACH relationship.
 
-### Request Body
+## Request Body
 
 The body of this request represents the information about the to-be-created ACH relationship. It must be sent in the JSON format with the parameters described in the following table:
 
@@ -44,7 +44,7 @@ Here's the final template for this API request:
 POST apiURL/v1.0/accounts/{accountId}/ach-relationships
 ```
 
-### Response
+## Response
 
 In response to this API request, you will receive a JSON dictionary containing detailed information about the newly created ACH relationship.
 
@@ -78,11 +78,11 @@ where:
 | ApprovalMethod | This is the approval method. The value of this parameter can be either **Instant** \(Plaid\) or **Manual** \(Micro deposits\). |
 | Default | This boolean value indicates if this ACH relationship is a default one for this trading account. |
 
-### Common Mistakes
+## Common Mistakes
 
-Here are some of the common mistakes that developers make when attempting to send a request to establish a new ACH relationship. 
+Here are some of the common mistakes that developers make when attempting to send a request to establish a new ACH relationship.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 
@@ -92,7 +92,7 @@ If you specify the wrong Et-App-Key parameter or fail to include it in the heade
 }
 ```
 
-#### Failing to Specify All Body Parameters
+### Failing to Specify All Body Parameters
 
 Another common mistake when making this request is failing to specify all of the required body parameters. Doing so will result in the 500 status code and the following error message:
 

@@ -1,6 +1,6 @@
 # Options
 
-### Trading Options in ETNA Trader
+## Trading Options in ETNA Trader
 
 Option is a contract in which a party that owns the option has the right \(but not obligation\) to purchase \(Call\) or sell \(Put\) a specific asset at a pre-defined \(strike\) price within a specific time frame. The counter party in this transaction is the writer of the option that in exchange for a premium agreed to purchase or sell the asset. Both the writer and the owner of the option make opposite bets on the price of the underlying asset: if its market price is better than the strike price, the owner of the option realizes a profit; if the strike price is better, the writer of the options realizes a profit.
 
@@ -13,7 +13,7 @@ There are two widgets that facilitate trading with options:
 1. **Option Ticket**. This widget enables traders to purchase options and enter into complex strategies.
 2. **Option Chain**. This widget enables traders to conveniently explore various options with different expiration dates, determine the probability of the underlying asset reaching a specific price, inspection of options' greeks as well as the profit/loss calculator.
 
-### Option Chain Widget
+## Option Chain Widget
 
 Let's delve deeper into the Option Chain widget and examine its various aspects. The uppermost segment of the Option Chain widget contains the text field for the underlying security's ticker symbol as well as several drop-down menus for filtering options:
 
@@ -31,13 +31,13 @@ The selection of columns in both tables can be configured by clicking on the thr
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.38.38.png)
 
-#### Greeks
+### Greeks
 
 To the left of Call options and to the right of Put options there's a small blue sigma button that prompts options' greeks. Greeks measure different factors that affect the price of an option.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.41.38.png)
 
-### Intrinsic value and Time
+## Intrinsic value and Time
 
 One of the columns of the _Option Chain_ widget is entitled **Mark** and it contains the current mark price of the option. Please note that this column is available only for Call and Put options.
 
@@ -48,12 +48,11 @@ As you hover over the column with the option's strike price, the following pop-u
 The pop-up contains two parameters:
 
 1. **Intrinsic**
-
-* For in-the-money Call options:
+2. For in-the-money Call options:
 
 \*\*\*\*$$Intrinsic = |StockMark - Strike|$$\*\*\*\*
 
-*  For in-the-money Put Options**:**
+* For in-the-money Put Options**:**
 
 $$Intrinsic = |Strike - StockMark|$$
 
@@ -63,13 +62,13 @@ $$Intrinsic = 0$$
 
 The `Intrinsic` parameter is calculated as the difference between the underlying security's mark price and the option's strike price. For out-of-the-money options, `Intrinsic` is equal to 0.
 
-   ****2. **Time**
+**\*\*2.** Time\*\*
 
-\*\*\*\*$$Time = Option Mark - Intrinsic$$ ****
+\*\*\*\*$$Time = Option Mark - Intrinsic$$ _\*\*_
 
 The `Time` parameter is calculated as the difference between the option's mark price and the **Intrinsic** parameter \(or vice versa\).
 
-### Probability Calculator 
+## Probability Calculator
 
 In option trading, it's critical to estimate the probability of the underlying security reaching the target price range. For this purpose, ETNA Trader provides traders with the so-called probability calculator.
 
@@ -105,7 +104,7 @@ The last five rows display the probability of the underlying security's price **
 4. Either the lower or the upper bound of the target price range;
 5. Neither the lower nor the upper bound of the target price range.
 
-### Profit/Loss Calculator
+## Profit/Loss Calculator
 
 Above the probability calculator there is a profit and loss calculator that enables traders to view the projected profit or loss of selected options depending on the price of the underlying security at expiration date.
 
@@ -121,21 +120,21 @@ The projected profit and loss can be inspected in the Profit/Loss calculator on 
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.53.18.png)
 
-#### Profit/Loss Chart
+### Profit/Loss Chart
 
 Taking a closer look at the Profit/Loss chart, the y-axis represents the projected profit or loss when using the selected option strategy while the x-axis represents the price of the underlying security.
 
-The yellow line represents the projected profit or loss over a variety of prices: the orange triangle marks the price point of the underlying security at which this option will generate the maximum loss; the yellow square marks the breakeven price of the underlying security. 
+The yellow line represents the projected profit or loss over a variety of prices: the orange triangle marks the price point of the underlying security at which this option will generate the maximum loss; the yellow square marks the breakeven price of the underlying security.
 
 The blue line represents the value of the option depending on the price of the underlying security \(yellow line\).
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-20.57.19.png)
 
-#### Choosing Strategies
+### Choosing Strategies
 
 ETNA Trader enables traders to buy and sell Put and Call options with different expiration dates and strike prices. To the left of the **Strike** column there are **Call** options; to the right — **Put** options.
 
-To **buy** a Call or Put option, select the following checkbox until the green letter **B** appears. To sell a Call or Put option, select click on it twice until the red letter S appears. Optionally, specify the target number of options to be purchased. 
+To **buy** a Call or Put option, select the following checkbox until the green letter **B** appears. To sell a Call or Put option, select click on it twice until the red letter S appears. Optionally, specify the target number of options to be purchased.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-21.17.30.png)
 
@@ -143,7 +142,7 @@ To **buy** a Call or Put option, select the following checkbox until the green l
 Notice how the chart on the right dynamically adjusts as you select different options.
 {% endhint %}
 
-### Option Ticket
+## Option Ticket
 
 The second widget that enables option trading is _Option Ticket_. This widget enables traders to purchase or sell options, trade the underlying security, enter into complex strategies, and configure different aspects of the order like its type, duration, etc.
 
@@ -159,11 +158,11 @@ In the top-right corner there's a drop-down menu that provides a list of option 
 
 For example, if the trader selects the popular covered call strategy, Option Ticket will automatically add a long position in the underlying security and a sell-to-open position in a call option. Alternatively, traders can add the legs of a trade themselves, selecting the required expiration date, target strike price, option type \(Call or Put\), etc.
 
-At the bottom traders can determine the required order type, duration of the order, and they can even configure a complex _One-Triggers-the-Other_ or _One-Cancels-the-Other_ order. 
+At the bottom traders can determine the required order type, duration of the order, and they can even configure a complex _One-Triggers-the-Other_ or _One-Cancels-the-Other_ order.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-21.21.55.png)
 
-#### Debit and Credit for Limit Orders
+### Debit and Credit for Limit Orders
 
 If you attempt to enter into a strategy where you simultaneously buy and sell a security, you can also specify a limit price for the entire order. This limit price will indicate the amount of money that you will either receive \(Credit\) from the order or spend on the order \(Debit\). For example, if you sell an option for $100 and simultaneously buy a stock for $80, you will **receive $20** \(Credit\). Conversely, if you sell an option for $70 and buy a stock for $120, you will be **charged $50** \(Debit\). The debit and credit can be limited to ensure that the order will be executed only when either the debit or the credit is equal to a specific amount.
 
@@ -179,13 +178,13 @@ Once the order is filled, it can be inspected from the **Orders** widget and the
 
 ![](../../../.gitbook/assets/screenshot-2020-03-20-at-21.23.40.png)
 
-#### Options Trading in ETNA Trader for iOS:
+### Options Trading in ETNA Trader for iOS:
 
 {% page-ref page="../../etna-trader-for-ios/quotes-view/trade-view/options-trading.md" %}
 
-### Video Overview
+## Video Overview
 
 Feel free to watch our video overview that demonstrates how to trade options in ETNA Trader Web as well as in our mobile apps:
 
-{% embed url="https://www.youtube.com/watch?v=POJAl2lnpg8&t=380s" %}
+{% embed url="https://www.youtube.com/watch?v=POJAl2lnpg8&t=380s" caption="" %}
 

@@ -4,15 +4,15 @@ description: Manage price alerts
 
 # Price Alerts View
 
-### Introduction
+## Introduction
 
 The fourth tab of ETNA Trader for iOS — **Price Alerts** — is responsible for displaying the trader's price alerts. A price alert is a scheduled notification that will go off when the specified target price is reached for a specific security. For example, if you want to be notified when the price of the Netflix stock reaches $500, you can create a price alert for the stock with the following condition: `>= 500`.
 
 Price alerts are shared between all platforms of ETNA Trader, meaning all alerts created in the mobile apps will function in the web terminal and vice versa.
 
-### Creating a New Price Alert
+## Creating a New Price Alert
 
-To create a new price alert, tap on the **Quick Alert** textfield. 
+To create a new price alert, tap on the **Quick Alert** textfield.
 
 ![](../../.gitbook/assets/img_0056_iphonexspacegrey_portrait.png)
 
@@ -27,7 +27,7 @@ Next, search for the required security and then tap on it. You will be prompted 
 
 Once done, tap **Create**. The newly created price alert is active and will notify you when the target price is reached.
 
-### Notification Types
+## Notification Types
 
 In addition to native iOS notifications, you can also get price alerts by Email and SMS. Notification settings for price alerts can be configured in the app's settings. Go to **Account** \(5th tab\) and tap on the little gear icon in the top-left corner.
 

@@ -4,7 +4,7 @@ description: Download the app from the Google Play and sign up
 
 # Getting Started
 
-### Introduction
+## Introduction
 
 ETNA Trader for Android serves as an extension of ETNA Trader Web and provides similar functionality, including:
 
@@ -17,5 +17,5 @@ ETNA Trader for Android serves as an extension of ETNA Trader Web and provides s
 
 To take a quick look at ETNA Trader for Android in action, feel free to watch our vide overview of the app:
 
-{% embed url="https://www.youtube.com/watch?v=w2vfTrtrP-E" %}
+{% embed url="https://www.youtube.com/watch?v=w2vfTrtrP-E" caption="" %}
 

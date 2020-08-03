@@ -4,7 +4,7 @@ description: Modify the name of an existing ACH Relationship
 
 # Modify an ACH Relationship
 
-### Overview
+## Overview
 
 This PUT endpoint enables you to modify an existing ACH relationship.
 
@@ -17,7 +17,7 @@ There are six required parameters that must be provided in the request:
 5. **id** \(path\). This is the ID of the ACH relationship in ETNA Trader.
 6. **model** \(body\). This is a JSON dictionary that contains updated information about the ACH relationship.
 
-#### Request Body
+### Request Body
 
 The body of this request represents the updated name of ACH relationship.
 
@@ -37,7 +37,7 @@ Here's the final template for this API request:
 PUT apiURL/v1.0/accounts/{accountId}/ach-relationships/{id}
 ```
 
-### Response
+## Response
 
 In response to this API request, you will receive a JSON dictionary containing detailed information about the newly created ACH relationship.
 
@@ -72,11 +72,11 @@ where:
 | ApprovalMethod | This is the approval method. The value of this parameter can be either **Instant** \(Plaid\) or **Manual** \(Micro deposits\). |
 | Default | This boolean value indicates if this ACH relationship is a default one for this trading account. |
 
-### Common Mistakes
+## Common Mistakes
 
 Here are some of the common mistakes that developers make when attempting to send a request to update an existing ACH relationship.
 
-#### Failing to Specify the Et-App-Key Parameter
+### Failing to Specify the Et-App-Key Parameter
 
 If you specify the wrong Et-App-Key parameter or fail to include it in the header altogether, you'll get the following error:
 

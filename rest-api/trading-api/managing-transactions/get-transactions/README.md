@@ -42,8 +42,6 @@ Dates must be highlighted with the pound sign: `#2019-08-09T18:31:42#`.
 
 The following table lists a set of sample queries:
 
-
-
 <table>
   <thead>
     <tr>

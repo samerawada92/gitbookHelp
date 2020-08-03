@@ -4,9 +4,9 @@ description: Link a banking account and transfer funds
 
 # Funding Tab
 
-### Funding Tab Overview
+## Funding Tab Overview
 
-The main purpose of the funding tab is to enable traders to deposit and withdraw funds to/from their banking accounts. 
+The main purpose of the funding tab is to enable traders to deposit and withdraw funds to/from their banking accounts.
 
 ![](../../.gitbook/assets/screenshot-2020-04-27-at-16.30.43.png)
 
@@ -18,7 +18,7 @@ This will re-direct you to the banking selection page where you can select a pre
 
 ![](../../.gitbook/assets/screenshot-2020-04-27-at-16.53.06.png)
 
-### Linking a New Banking Account
+## Linking a New Banking Account
 
 When you initiate linking of a new banking account, Digital Advisor will prompt the Plaid view that allows for easy and convenient establishment of ACH relationships. Click **Agree**.
 

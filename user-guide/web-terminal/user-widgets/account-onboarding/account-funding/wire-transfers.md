@@ -4,7 +4,7 @@ description: Withdraw funds using wire transfers
 
 # Wire Transfers
 
-### Withdrawing Funds Using Wire Transfers
+## Withdrawing Funds Using Wire Transfers
 
 In addition to ACH transfers and check transfers, ETNA Trader also provides traders with the ability to withdraw funds from their trading accounts by means of wire transfers. Specifically, the funds could be withdrawn via either a domestic wire or a foreign wire.
 
@@ -25,6 +25,4 @@ Optionally, you can make a **For Further Credit** payment by selecting the corre
 ![](../../../../../.gitbook/assets/screenshot-2020-03-04-at-17.06.12.png)
 
 Once you're done, click **Submit**, and the transfer will be passed to an administrator for review. Once it's approved, withdrawal of funds will be initiated.
-
-
 

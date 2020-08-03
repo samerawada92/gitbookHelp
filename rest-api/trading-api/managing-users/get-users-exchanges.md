@@ -46,7 +46,7 @@ If a trader selects **`Auto`** when placing an order, this order will be routed 
 
 ### Common Mistakes
 
-Here are some of the common mistakes that developers make when attempting to retrieve the list of exchanges available to a specific user. 
+Here are some of the common mistakes that developers make when attempting to retrieve the list of exchanges available to a specific user.
 
 #### Failing to Specify the Et-App-Key Parameter
 

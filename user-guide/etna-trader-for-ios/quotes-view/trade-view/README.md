@@ -4,7 +4,7 @@ description: Learn how to place a trade in ETNA Trader for iOS
 
 # Trade View
 
-### Introduction
+## Introduction
 
 ETNA Trader for iOS offers full-fledged functionality for trading, enabling traders to open positions in both stocks and options. Whether a trader wants to open a long, short, or buy-to-cover position, they can do so by tapping on the **Trade** button in the top-right corner.
 

@@ -4,7 +4,7 @@ description: Get Started with Digital Advisor
 
 # Getting Started
 
-### Introduction
+## Introduction
 
 Digital Advisor is hosted on one of your broker's subdomains. Before you proceed to use it for automatic management of your portfolio, first sign up for it. Head over to the login page and click **Sign Up**.
 

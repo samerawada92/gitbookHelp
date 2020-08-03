@@ -4,7 +4,7 @@ description: Explore the market depth of a specific security
 
 # Market Depth
 
-### Exploring the Market Depth Widget
+## Exploring the Market Depth Widget
 
 ETNA Trader's **Market Depth** widget enables traders to inspect the current market depth of a specific security. Specifically, it displays the following information:
 

@@ -4,7 +4,7 @@ description: Learn about the design of ETNA Trader for Android
 
 # App Layout
 
-### Introduction
+## Introduction
 
 Once you launch ETNA Trader for Android, you'll notice that the app's layout represents five tabs, each tab displaying a separate screen with its own purpose. The list of tabs in the bar is as follows:
 
@@ -14,7 +14,7 @@ Once you launch ETNA Trader for Android, you'll notice that the app's layout rep
 4. **Price Alerts**. The screen displays all price alerts of the trading account.
 5. **Account**. This screen contains information about the trading account as well as the app's settings.
 
-![](../../.gitbook/assets/screenshot_2020-04-28-21-48-09-797_com.etnasoft.etnamobile.android.jpg)
+![](../../.gitbook/assets/screenshot_2020-04-28-21-48-09-797_com.etnasoft.etnamobile.android%20%281%29.jpg)
 
 {% hint style="info" %}
 The selection of items in the tab bar may vary depending on the broker's settings. Namely, the app can omit certain screens or add one extra at the request of the broker.

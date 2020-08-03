@@ -8,7 +8,7 @@ description: Retrieve default trading settings of a specific user
 
 This GET endpoint enables you to request a user's default trading
 
- settings by providing their unique identifier in the header. In response, you'll receive a JSON file with the user's information.
+settings by providing their unique identifier in the header. In response, you'll receive a JSON file with the user's information.
 
 There are four required parameters that must be provided in the request:
 
