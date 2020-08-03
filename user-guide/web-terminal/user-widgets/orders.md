@@ -2,11 +2,11 @@
 
 ## Exploring the Orders Widget
 
-Before you start conquering the world of trading, ETNA Trader gives you the chance to users to trade with virtual money for product evaluation, trading educational or to test their trading strategy to experience the full range of ETNA Trader's trading capabilities in a real-time market environment, without risking any of your own money. All customers will start with USD 1,000,000 of paper trading. You can use all ETNA Trader's order types, trade all securities available in your demo account. Every trade entered into your ETNA Trader's paper trading account will not actually execute on any exchange or settle at a clearing house. However, the price of your executions will be determined by real market prices and sizes.
+Before you start conquering the world of trading, TTG-SIM Trader gives you the chance to users to trade with virtual money for product evaluation, trading educational or to test their trading strategy to experience the full range of TTG-SIM Trader's trading capabilities in a real-time market environment, without risking any of your own money. All customers will start with USD 1,000,000 of paper trading. You can use all TTG-SIM Trader's order types, trade all securities available in your demo account. Every trade entered into your TTG-SIM Trader's paper trading account will not actually execute on any exchange or settle at a clearing house. However, the price of your executions will be determined by real market prices and sizes.
 
 ## Placing a New Order
 
-There are two ways to create an order on ETNA Trader's platform:
+There are two ways to create an order on TTG-SIM Trader's platform:
 
 1. **Option 1**. Type in the symbol in the box in the upper left side of the order widget.
 2. **Option 2**. Click on the symbol from your watchlist.
@@ -46,7 +46,7 @@ Users can set the type of order they want to place from Trade Ticket, Option Tic
 
 ## Placing Algo Orders
 
-ETNA Trader provides traders with a set of algorithmic order types like the trailing stop, trailing stop-limit, one-cancels-the-other, one-triggers-the-other, etc. Orders of these types can be configured and placed from ETNA Trader Web, mobile apps, and the [web API]().
+ETNA Trader provides traders with a set of algorithmic order types like the trailing stop, trailing stop-limit, one-cancels-the-other, one-triggers-the-other, etc. Orders of these types can be configured and placed from TTG-SIM Trader Web, mobile apps, and the [web API]().
 
 Let's review each of these order types and demonstrate how they can be placed.
 

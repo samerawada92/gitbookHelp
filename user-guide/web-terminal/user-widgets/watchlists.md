@@ -12,7 +12,7 @@ You can link the News widget with your watchlist or vice versa. Every watch list
 
 ## Importing Watchlists From CSV Files
 
-In addition to manually creating new watchlists, ETNA Trader also enables traders to import watchlists from CSV Files. This can be done by clicking **Load from file**.
+In addition to manually creating new watchlists, TTG-SIM Trader also enables traders to import watchlists from CSV Files. This can be done by clicking **Load from file**.
 
 ![](../../../.gitbook/assets/screenshot-2020-02-27-at-15.03.33.png)
 

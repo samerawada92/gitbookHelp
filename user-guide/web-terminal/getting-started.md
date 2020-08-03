@@ -1,12 +1,12 @@
 ---
-description: Opening an account in ETNA Trader
+description: Opening an account in TTG-SIM Trader
 ---
 
 # Getting Started
 
 ## Registration Form
 
-The first step in getting started with ETNA Trader is to register as as new user. In order to do that, quickly fill out out the following online form:
+The first step in getting started with TTG-SIM Trader is to register as as new user. In order to do that, quickly fill out out the following online form:
 
 ![](../../.gitbook/assets/screenshot-2020-03-19-at-16.57.06.png)
 
@@ -47,5 +47,5 @@ Once you complete and submit your online registration form, you will receive an 
 
 ![](../../.gitbook/assets/screenshot-2020-03-19-at-16.58.57.png)
 
-Press "**Click here to start using ETNA Trader** " and you will be re-directed to the web trader dashboard.
+Press "**Click here to start using TTG-SIM Trader** " and you will be re-directed to the web trader dashboard.
 

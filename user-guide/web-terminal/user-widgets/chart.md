@@ -6,7 +6,7 @@ description: View security price charts and place trades
 
 ## Exploring the Chart Widget
 
-In order to view the market from nearly every conceivable angle, ETNA Trader offers different chart types that stream up-to-date data. From candlesticks to bar, every chart type updates data automatically as it unfolds.
+In order to view the market from nearly every conceivable angle, TTG-SIM Trader offers different chart types that stream up-to-date data. From candlesticks to bar, every chart type updates data automatically as it unfolds.
 
 You can also choose to show a chart in four different modes:
 
@@ -95,7 +95,7 @@ The charting menu bar shows different options that can be expanded and used to s
 
 ## Trade Shortcut in Charts
 
-In ETNA Trader, the Chart widgets provides a quick shortcut to place a new order. When viewing a chart for the desired security, simply double-click on a particular candle and the order placement window will pop up.
+In TTG-SIM Trader, the Chart widgets provides a quick shortcut to place a new order. When viewing a chart for the desired security, simply double-click on a particular candle and the order placement window will pop up.
 
 ![](../../../.gitbook/assets/screenshot-2020-03-19-at-16.53.11.png)
 

@@ -24,7 +24,7 @@ To close an existing position, hover the mouse over the cross button and then cl
 
 ## Column Management
 
-The default selection of columns displayed in the **Positions** widget is determined by ETNA Trader. However, you can always add or conceal certain columns by clicking **Change Columns**.
+The default selection of columns displayed in the **Positions** widget is determined by TTG-SIM Trader. However, you can always add or conceal certain columns by clicking **Change Columns**.
 
 ![](../../../.gitbook/assets/screenshot-2020-05-18-at-22.44.03.png)
 

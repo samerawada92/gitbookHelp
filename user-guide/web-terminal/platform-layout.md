@@ -1,5 +1,5 @@
 ---
-description: Get to know the layout of ETNA Trader's web terminal
+description: Get to know the layout of TTG-SIM Trader's web terminal
 ---
 
 # Platform Layout
@@ -51,7 +51,7 @@ The penultimate checkbox is called **Turn safe mode on** and it enables you to p
 
 ## Marquee Settings
 
-ETNA Trader's Marquee streams security information in the most flexible real-time quote displays. With ETNA Trader's Marquee, you can combine real-time data of securities in a variety of customizable displays. The content of Marquee can be customized in three different models:
+ETNA Trader's Marquee streams security information in the most flexible real-time quote displays. With TTG-SIM Trader's Marquee, you can combine real-time data of securities in a variety of customizable displays. The content of Marquee can be customized in three different models:
 
 1. **Positions**. Marquee that shows updated quotes of all the symbols you traded and opened positions in.
 2. **Watchlist**. Marquee that shows updated quotes of the three different types of securities: Stocks, Forex, or Indices.
