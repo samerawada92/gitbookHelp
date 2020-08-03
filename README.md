@@ -8,7 +8,7 @@ description: >-
 
 TTG-SIM enables all True Trading Group members to gain instant live stock market data. Our members also gain live access to level-2 market data. Our simulator will enable all members to practice with fake money until they feel comfortable to trade alongside Mike and the other moderators with real money.
 
-Features include:
+**Features include:**
 
 * Trade equities, options \(including multi-legs\), ETFs, Mutual Funds \(Forex with cryptocurrencies coming soon\).
 * Customizable layout 
