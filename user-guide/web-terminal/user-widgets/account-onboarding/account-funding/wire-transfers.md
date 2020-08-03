@@ -6,7 +6,7 @@ description: Withdraw funds using wire transfers
 
 ## Withdrawing Funds Using Wire Transfers
 
-In addition to ACH transfers and check transfers, TTG-SIM Trader also provides traders with the ability to withdraw funds from their trading accounts by means of wire transfers. Specifically, the funds could be withdrawn via either a domestic wire or a foreign wire.
+In addition to ACH transfers and check transfers, the TTG-SIM also provides traders with the ability to withdraw funds from their trading accounts by means of wire transfers. Specifically, the funds could be withdrawn via either a domestic wire or a foreign wire.
 
 {% hint style="warning" %}
 Check transfers are relevant only for withdrawing funds.

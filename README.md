@@ -1,6 +1,6 @@
 ---
 description: >-
-  Details on TTG-SIM Trader Suite of applications for online broker-dealers
+  Details on the TTG-SIM Trader Suite of applications for online broker-dealers
   describing its components, features and more.
 ---
 

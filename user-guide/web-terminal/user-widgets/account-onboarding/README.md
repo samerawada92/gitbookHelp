@@ -1,5 +1,5 @@
 ---
-description: Learn how to open new trading accounts in TTG-SIM Trader
+description: Learn how to open new trading accounts in the TTG-SIM
 ---
 
 # Account Opening
@@ -26,7 +26,7 @@ Once the form is filled out, it will take some time for it to be processed and t
 
 ![](../../../../.gitbook/assets/screenshot-2019-10-17-at-16.05.20.png)
 
-Once the trading account has been opened, the trader can sign into TTG-SIM Trader Wen and use the newly created account to start trading.
+Once the trading account has been opened, the trader can sign into the TTG-SIM Wen and use the newly created account to start trading.
 
 ## Account Opening Request Workflow
 
@@ -36,7 +36,7 @@ The following diagram demonstrates the workflow of opening a new account:
 
 ## Trading Account Management
 
-If a trader needs to open another account or manage their current accounts, they can click on the little gear icon the header of TTG-SIM Trader Web. This will bring up the user management window where the trader can add a new account by clicking **Add Account**. In order to modify an existing account, the trader should click on the **Replace** icon.
+If a trader needs to open another account or manage their current accounts, they can click on the little gear icon the header of the TTG-SIM Trader Web. This will bring up the user management window where the trader can add a new account by clicking **Add Account**. In order to modify an existing account, the trader should click on the **Replace** icon.
 
 ![](../../../../.gitbook/assets/screenshot-2020-03-04-at-15.58.04.png)
 

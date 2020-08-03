@@ -1,10 +1,10 @@
 # Table of contents
 
-* [What is TTG-SIM?](README.md)
+* [What is the TTG-SIM?](README.md)
 
 ## User guide
 
-* [TTG-SIM Trader Web](user-guide/web-terminal/README.md)
+* [The TTG-SIM Trader Web](user-guide/web-terminal/README.md)
   * [Platform Layout](user-guide/web-terminal/platform-layout.md)
   * [User Widgets](user-guide/web-terminal/user-widgets/README.md)
     * [Account Information](user-guide/web-terminal/user-widgets/account-information.md)

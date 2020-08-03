@@ -5,5 +5,5 @@ description: >-
   dashboards and design widgets.
 ---
 
-# TTG-SIM Trader Web
+# The TTG-SIM Trader Web
 

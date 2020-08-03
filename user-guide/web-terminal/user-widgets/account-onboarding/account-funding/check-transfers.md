@@ -6,7 +6,7 @@ description: Withdraw funds using check transfers
 
 ## Withdrawing Funds with Checks
 
-In addition to ACH transfers, TTG-SIM Trader also enables traders to withdraw funds from their trading account by means of a check. In this case a check with the specified sum will be sent to the address specified by you in the account opening form \(the one you filled out when opening the trading account\).
+In addition to ACH transfers, the TTG-SIM also enables traders to withdraw funds from their trading account by means of a check. In this case a check with the specified sum will be sent to the address specified by you in the account opening form \(the one you filled out when opening the trading account\).
 
 {% hint style="warning" %}
 Check transfers are relevant only for withdrawing funds.
